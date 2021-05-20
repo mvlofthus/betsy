@@ -5,19 +5,20 @@ Below are some images of what you can expect to find on [our deployed website](h
 ** For security and demo purposes, the site does not process real payments or payment information.** 
 
 ## Front Page:
-Our front page lists all products, and adjusts to the size of the screen. Any user can access this page.  as well as a list of all merchants, and views of items sorted by category and by merchant. 
+Our front page lists all products, and adjusts to the size of the screen. Any user can access this page, as well as a list of all merchants, and views of items sorted by category and by merchant. 
 <p float="left">
   <img src='app/assets/images/home_fullscreen.png' height='350' alt='front page'/> 
-  <img src='app/assets/images/category_narrow.png' height='550' alt='front page'/> 
+  <img src='app/assets/images/home_halfscreen.png' height='550' alt='front page'/> 
   <img src='app/assets/images/merchants.png' height='550' alt='front page'/> 
 </p>
   
 ## Getting Started as a User:
 All users can navigate to different views of items and merchants, add items to their cart, review items, and checkout to make a purchase.  
 <p float="left">
-  <img src='app/assets/images/cart_view.png' height='550' alt='front page'/> 
-  <img src='app/assets/images/demo2.png' height='350' alt='front page'/> 
+  <img src='app/assets/images/category_narrow.png' height='550' alt='front page'/> 
+  <img src='app/assets/images/cart_view.png' height='550' alt='front page'/>
   <img src='app/assets/images/demo6.png' height='350' alt='front page'/> 
+  <img src='app/assets/images/demo2.png' height='350' alt='front page'/> 
 </p>
 
 ## Getting Started as a Seller: 
