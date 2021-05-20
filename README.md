@@ -28,6 +28,7 @@ A user who creates an account can become a seller. After logging in using OAuth,
   <img src='app/assets/images/demo4.png' height='350' alt='seller orders'/>
 </p>
 
+---
 
 ## bEtsy Assignment Guidelines
 
