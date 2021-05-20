@@ -1,28 +1,43 @@
-# our bEtsy project - catcus&clover
-As lovers of all things green, nutrient-absorbing, and generally advocates of photosynthesis as an energy source, we wanted to create a clean, simple e-commerce site for plant enthusiasts like us. 
+# catcus&clover
+As lovers of photosynthesizers, we wanted to create a clean, friendly, and simple e-commerce site for fellow plant enthusiasts! We took particular pride in our use of OAuth, responsive bootstrap implementation, and effective communicaiton and collaboration through the course of our bEtsy project.   
 
-Below are some images of what you can expect to find on [our deployed website](https://cactusandclover.herokuapp.com). ** For security and demo purposes, the site does not process real payments or payment information.** 
+Below are some images of what you can expect to find on [our deployed website](https://cactusandclover.herokuapp.com). 
+** For security and demo purposes, the site does not process real payments or payment information.** 
 
-![front page](app/assets/images/demo1.png)
-![leaving a review](app/assets/images/demo2.png)
-![seller dashboard 1](app/assets/images/demo3.png)
-![seller dashboard 2](app/assets/images/demo4.png)
-![shopping cart](app/assets/images/demo5.png)
-![confirmation page](app/assets/images/demo6.png)
-![view by category](app/assets/images/demo7.png)
+## Front Page:
+Our front page lists all products, and adjusts to the size of the screen. Any user can access this page.  as well as a list of all merchants, and views of items sorted by category and by merchant. 
+<p float="left">
+  <img src='app/assets/images/home_fullscreen.png' height='350' alt='front page'/> 
+  <img src='app/assets/images/category_narrow.png' height='550' alt='front page'/> 
+  <img src='app/assets/images/merchants.png' height='550' alt='front page'/> 
+</p>
+  
+## Getting Started as a User:
+All users can navigate to different views of items and merchants, add items to their cart, review items, and checkout to make a purchase.  
+<p float="left">
+  <img src='app/assets/images/cart_view.png' height='550' alt='front page'/> 
+  <img src='app/assets/images/demo2.png' height='350' alt='front page'/> 
+  <img src='app/assets/images/demo6.png' height='350' alt='front page'/> 
+</p>
 
-# bEtsy
+## Getting Started as a Seller: 
+A user who creates an account can become a seller. After logging in using OAuth, a user is directed to their dashboard. From their dashboard, a seller can view their past orders, detailed views of their order statuses, and items they have listed for sale.  THey can also add new items, edit currently available items, mark orders as sold, add new categories for their items, and edit their personal information
+<p float="left">
+  <img src='app/assets/images/seller_dashboard.png' height='550' alt='seller dashboard'/> 
+  <img src='app/assets/images/add_product.png' height='550' alt='add products'/>
+  <img src='app/assets/images/demo4.png' height='350' alt='seller orders'/>
+</p>
 
-## At a Glance
+
+## bEtsy Assignment Guidelines
 
 - Group, [stage 3](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/classroom/rule-of-three.md#stage-3) project
-- Due **EOD Wednesday November 25th**
 
-## Introduction
+### Introduction
 
 [Much like other e-commerce platforms](https://www.etsy.com/), your team will make an online store where a wide variety of products can be listed and sold by any user. This project focuses on reinforcing the major components of Rails, model validations, testing, and more complex logic such as user authentication.
 
-## Learning Goals
+### Learning Goals
 
 - Core comprehension of:
   - Routes
@@ -36,7 +51,7 @@ Below are some images of what you can expect to find on [our deployed website](h
 - Feature branch management with Git
 - Group project ownership
 
-## Objective
+### Objective
 
 We will build an online platform for listing, selling, reviewing, and buying a wide variety of products listed by multiple merchants.
 
@@ -58,7 +73,7 @@ Please continue to feel free to come to the instructional team with project ques
 
 The instructors have found that when multiple people from the same team come to us and they're both looked into the question, the group has more opportunity to support each other and the questions tend to be answered more quickly because the team has thought about their question more thoroughly.  It also spreads knowledge of features across the team.
 
-## Getting Started
+### Getting Started
 
 1. As a group decide on an app name (this may help lead the aesthetic)
 1. As a group decide on a team name (this will amuse your instructors)
@@ -75,12 +90,12 @@ The instructors have found that when multiple people from the same team come to 
 1. Slack your team name, app name, and invitation link to your Trello board to your Project Manager
 1. Begin work on drafting an ERD together as a team!
 
-## Non-Functional Requirements
+### Non-Functional Requirements
 
 This project must have:
   - 90% reported coverage for all controller and model classes using SimpleCov
 
-## Process Requirements
+### Process Requirements
 
 We expect you to follow this modified Agile process as you work on this project:
 
